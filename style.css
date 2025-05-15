@@ -8,19 +8,67 @@ h2,
 h5 {
   color: #212529;
 }
+.recent-posts {
+  background-color: #eaf6fb;
+  padding: 40px 20px;
+}
+
+.posts {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* để responsive tốt hơn */
+}
+
+.post-card {
+  background-color: white;
+  border-radius: 4px;
+  width: 418px;
+  height: 295px;
+  top: 664px;
+  left: 148px;
+}
+
+.post-card h3 {
+  font-size: 26px;
+  width: 374px;
+  height: 85px;
+  font-weight: 700;
+}
+
+.meta {
+  font-size: 18px;
+  color: #21243d;
+  width: 374px;
+  height: 34px;
+  font-weight: 400;
+}
+
+.desc {
+  font-size: 16px;
+  width: 368px;
+  height: 117px;
+  font-weight: 400;
+
+  color: #21243d;
+}
+
+.view-all-link {
+  color: #00a8cc;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
 
 .navbar {
   padding: 1rem 0;
 }
 
 .btn-danger {
-  background-color: #e63946;
-  border: none;
-  font-family: "heebo", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0px;
+  background-color: #ff6464;
+  font-family: "heebo";
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
 }
 .hero-description {
   width: 208px;
