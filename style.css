@@ -22,9 +22,9 @@ h5 {
 .post-card {
   background-color: white;
   border-radius: 4px;
-  width: 418px;
+  width: 285px;
   height: 295px;
-  top: 664px;
+  top: 500px;
   left: 148px;
 }
 
@@ -124,9 +124,10 @@ footer a:hover {
 @media (width: 167px) {
   .hero-text {
     text-align: center;
-    height: 21px;
-    top: 486px;
-    left: 168px;
+    width: 312px;
+    height: 120px;
+    top: 297x;
+    left: 32px;
   }
   .hero-title {
     font-family: "Heebo", sans-serif;
@@ -171,12 +172,12 @@ footer a:hover {
   }
   .hero-description {
     position: absolute;
-    width: 497px;
-    height: 66px;
-    top: 373px;
-    left: 148px;
+    width: 328px;
+    height: 96px;
+    top: 438px;
+    left: 24px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 100%;
     color: #6c757d;
   }
   .hero-title2 {
